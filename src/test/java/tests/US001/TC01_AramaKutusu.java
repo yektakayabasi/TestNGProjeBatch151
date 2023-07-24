@@ -7,5 +7,8 @@ import utilities.Driver;
 
 public class TC01_AramaKutusu {
 
-
+    @Test
+    public void test01() {
+        Driver.closeDriver();
+    }
 }
